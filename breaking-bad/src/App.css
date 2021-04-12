@@ -7,6 +7,10 @@
 html,
 body {
     background: #000 url('img/bg.jpg') no-repeat center center/cover;
+    /* background-color: #000;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: center; */
     height: 100vh;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +26,8 @@ a {
     padding: 0 20px;
 }
 
-.btn {
+
+/* .btn {
     display: inline-block;
     color: #fff;
     background-color: #3fb573;
@@ -31,7 +36,7 @@ a {
     padding: 10px 15px;
     border: 0;
     margin: 10px 0;
-}
+} */
 
 header {
     height: 200px;
@@ -47,11 +52,14 @@ header img {
     justify-content: center;
 }
 
+
+/* 
 .search {
     height: 100px;
-}
+} */
 
-input[type='text'] {
+
+/* input[type='text'] {
     display: block;
     padding: 10px;
     font-size: 20px;
@@ -60,7 +68,7 @@ input[type='text'] {
     width: 60%;
     margin: auto;
     outline: none;
-}
+} */
 
 .cards {
     display: grid;
@@ -68,7 +76,8 @@ input[type='text'] {
     gap: 1rem;
 }
 
-.card {
+
+/* .card {
     cursor: pointer;
     background-color: transparent;
     height: 300px;
@@ -136,4 +145,4 @@ input[type='text'] {
         height: 300px;
         object-fit: contain;
     }
-}
+} */
