@@ -68,7 +68,7 @@ header img {
     width: 60%;
     margin: auto;
     outline: none;
-} */
+}  */
 
 .cards {
     display: grid;
@@ -76,8 +76,7 @@ header img {
     gap: 1rem;
 }
 
-
-/* .card {
+.card {
     cursor: pointer;
     background-color: transparent;
     height: 300px;
@@ -145,4 +144,4 @@ header img {
         height: 300px;
         object-fit: contain;
     }
-} */
+}

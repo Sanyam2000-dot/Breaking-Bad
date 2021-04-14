@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import Header from "./components/ui/Header.js";
-import Characters from "./components/characters/Characters";
+import CharactersInGrid from "./components/characters/CharactersInGrid";
 
 function App() {
   const [item, setItem] = useState([]);
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <Characters item={item} isLoading={isLoading} />
+      <CharactersInGrid item={item} isLoading={isLoading} />
     </div>
   );
 }
